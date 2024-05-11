@@ -1,38 +1,28 @@
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <main>
+  <body>
+    <!-- <img src="share-image.png" alt="Company Logo" class="logo"> -->
+  
     
-       <div class="box">
-        <img src="share-image.png">
-    </div>
-        <div class="container">
-            <div class="form">
-                <form>
-                    <h4>Login</h4>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email">
-                    </div>
-                    <div>
-                        <label for="password">password</label>
-                        <input type="text" name="password" id="password">
-                    </div>
-                    <button type="button" id="login">Submit</button>
-                </form>
-           
+    <div class="login-container">
+        <div class="image">
+            <img src="logo (2).png" alt="Company Logo" class="logo">
+        </div>
+        <form class="login-form">
+          <h4>Login</h4>
+          <label for="Email">Username</label>
+          <input type="email" id="email" name="email" required>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Login</button>
+        </form>
+        
+      </div>
     
-    </div>
-    </div>
-     
-</main>
-</body>
-
+  </body>
 </html>
